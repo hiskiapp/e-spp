@@ -27,6 +27,7 @@ class Kernel extends ConsoleKernel
     {
         $schedule->call(function() {
             Artisan::call('payment:check');
+            Artisan::call('payment:failed');
         })->everyMinute();
     }
 

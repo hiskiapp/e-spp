@@ -136,6 +136,38 @@
       <!-- Card header -->
       <div class="card-header">
         <!-- Title -->
+        <h5 class="h3 mb-0">Metode Pembayaran</h5>
+      </div>
+      <!-- Card body -->
+      <div class="card-body">
+        <!-- List group -->
+        <ul class="list-group list-group-flush list my--3">
+          <li class="list-group-item px-0">
+            <div class="row align-items-center">
+              <div class="col">
+                <table>
+                  <tr>
+                    <td>OVO</td>
+                    <td>:</td>
+                    <td>{{ setting('ovo') }}</td>
+                  </tr>
+                  <tr>
+                    <td>BRI</td>
+                    <td>:</td>
+                    <td>{{ setting('bri') }}</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Progress track -->
+    <div class="card">
+      <!-- Card header -->
+      <div class="card-header">
+        <!-- Title -->
         <h5 class="h3 mb-0">History Pembayaran</h5>
       </div>
       <!-- Card body -->

@@ -40,7 +40,7 @@ class PaymentCheck extends Command
      */
     public function handle()
     {
-        $this->info('Checking.......');
+        $this->info('Checking..............');
 
         $transactions = Transaction::where('status','Waiting Payment')
         ->where('payment_method','OVO')

@@ -23,5 +23,17 @@ class SettingsTableSeeder extends Seeder
         $data->title = "Bulan Dimulai -> 1/7";
         $data->content = "7";
         $data->save();
+
+        $data = New Setting;
+        $data->slug = "ovo";
+        $data->title = "OVO Number";
+        $data->content = "085155064115";
+        $data->save();
+
+        $data = New Setting;
+        $data->slug = "bri";
+        $data->title = "BRI Rek";
+        $data->content = "1234567890";
+        $data->save();
     }
 }

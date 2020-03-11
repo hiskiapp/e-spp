@@ -89,12 +89,6 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ (request()->is('admin/roles')) ? 'active' : '' }}" href="{{ url('admin/roles') }}">
-              <i class="ni ni-chart-bar-32"></i>
-              <span class="nav-link-text">Roles</span>
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link {{ (request()->is('admin/settings')) ? 'active' : '' }}" href="{{ url('admin/settings') }}">
               <i class="ni ni-ui-04"></i>
               <span class="nav-link-text">Settings</span>
